@@ -4,7 +4,7 @@ import axios from 'axios'
 
 
 const api = axios.create({
-  baseURL: 'https://arha83.pythonanywhere.com/api/vars/'
+  baseURL: 'https://arha83.pythonanywhere.com/api/vars'
 })
 
 
