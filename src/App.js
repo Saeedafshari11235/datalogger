@@ -4,7 +4,7 @@ import axios from 'axios'
 
 
 const api = axios.create({
-  baseURL: 'https://arha83.pythonanywhere.com/api/vars'
+  baseURL: 'https://arha83.pythonanywhere.com/api/vars/'
 })
 
 
@@ -18,7 +18,7 @@ class App extends Component {
 
   constructor(){
     super();
-    api.get('/').then(res =>{
+    api.get('').then(res =>{
       this.setState({courses: res.data})
     })
   }
