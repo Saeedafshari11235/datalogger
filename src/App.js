@@ -40,7 +40,7 @@ class App extends Component {
            <td>{course.id}</td>
            <td>{course.text}</td>
             <td>{course.num}</td>
-           <td>{course.bit}</td>
+           <td>{String(course.bit)}</td>
             <td>{course.date}</td>
             </tr>
           ))}
