@@ -18,7 +18,7 @@ class App extends Component {
 
   constructor(){
     super();
-    api.get('').then(res =>{
+    api.get('/').then(res =>{
       this.setState({courses: res.data})
     })
   }
