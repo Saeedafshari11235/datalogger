@@ -18,9 +18,10 @@ th{
 td{
   width: 30px;
   height: 40px;
+  font-size: 1rem
 }
 body{
-  background-image: linear-gradient(90deg,#4e65ff,#92effd);
+  background-image: linear-gradient(45deg,#4e65ff,#92effd);
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -29,5 +30,5 @@ body{
 main{
   padding: 2rem;
   background-image: linear-gradient(45deg,#ff512f,#dd2476);
-  border-radius: 3rem;
+  border-radius: 2rem;
 }
