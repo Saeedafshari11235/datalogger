@@ -18,9 +18,12 @@ class App extends Component {
 
   constructor(){
     super();
-    api.get('/').then(res =>{
-      this.setState({courses: res.data})
-    })
+    this.getdata()
+  }
+
+  getdata = async() =>{
+    let data = await api.get('/').then(({data}) =>data)
+      this.setState({courses: data})
   }
 
 
